@@ -4,9 +4,9 @@ function Effect(){
     const[data,setData]=useState(0)
     const[count,setCount]=useState(0)
 
-   useEffect(()=>{
-    setCount(count+2)
-   },[data])
+//    useEffect(()=>{
+//     setCount(count+2)
+//    },[data])
 
 
 

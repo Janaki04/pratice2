@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Memo from './Memo'
-import PureCom from './PureCom'
-import PureReg from './PureReg'
+// import PureCom from './PureCom'
+// import PureReg from './PureReg'
 
 class PureMain extends Component{
 
