@@ -1,8 +1,8 @@
-import React,{useState,useEffect}from 'react'
+import React,{useState}from 'react'
 
 function Effect(){
     const[data,setData]=useState(0)
-    const[count,setCount]=useState(0)
+    const[count]=useState(0)
 
 //    useEffect(()=>{
 //     setCount(count+2)
