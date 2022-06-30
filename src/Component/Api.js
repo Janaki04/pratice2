@@ -22,7 +22,7 @@ const Api=()=>{
     return(
         <div>
       <h1>Hello World</h1>
-       {details.map((items,index)=><h1>{items.category}</h1>)}
+       {details.map((items,index)=><h1 key={index}>{items.category}</h1>)}
         </div>
     )
 }
